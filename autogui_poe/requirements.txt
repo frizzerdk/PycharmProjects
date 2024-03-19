@@ -1,0 +1,6 @@
+matplotlib==3.5.1
+numpy==1.22.3
+opencv_python==4.5.5.64
+PyAutoGUI==0.9.53
+pyperclip==1.8.2
+pywin32==303

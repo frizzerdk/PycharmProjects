@@ -1,0 +1,10 @@
+name: waterlab_mpc
+channels:
+  - defaults
+dependencies:
+  - python=3.7.7
+  - pandas
+  - jupyterlab
+  - matplotlib
+prefix: /home/davidm/anaconda3/envs/waterlab_mpc
+

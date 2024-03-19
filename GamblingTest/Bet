@@ -1,0 +1,30 @@
+import random
+import sys
+import os
+startGold = 1000
+bank = 1000
+gold = startGold
+startBet = 1
+bet = startBet
+tries = 0
+plays = 0
+
+while gold > 0:
+        print("%s %s %s %s %s %s %s" % (tries, "gold", gold, "bet", bet, "gain", gold / startGold))
+        tries += 1
+        if random.randrange(0, 2) == 1:
+            gold += bet
+            bet = startBet
+        else:
+            gold -= bet
+            bet *= 4
+            if gold - bet < 0:
+                bet = startBet
+
+
+
+
+
+
+
+
